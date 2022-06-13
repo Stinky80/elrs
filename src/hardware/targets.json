@@ -345,10 +345,16 @@
     },
     "jumper": {
         "tx_2400": {
+            "t-lite": {
+                "product_name": "Jumper AION T-Lite 2.4GHz TX",
+                "lua_name": "AION T-Lite TX",
+                "layout_file": "Jumper AION T-Lite.json",
+                "upload_methods": ["uart", "wifi", "etx"]
+            },
             "t-pro": {
                 "product_name": "Jumper AION T-Pro 2.4GHz TX",
                 "lua_name": "AION T-Pro TX",
-                "layout_file": "Jumper T-Pro.json",
+                "layout_file": "Jumper AION T-Pro.json",
                 "upload_methods": ["uart", "wifi", "etx"]
             },
             "nano": {
