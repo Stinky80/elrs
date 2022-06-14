@@ -363,6 +363,20 @@
                 "layout_file": "Jumper AION Nano.json",
                 "upload_methods": ["uart", "wifi"]
             }
+        },
+        "rx_2400": {
+            "mini": {
+                "product_name": "Jumper AION Mini SE 2.4GHz RX",
+                "lua_name": "AION 2G4Mini RX",
+                "layout_file": "Generic 2400.json",
+                "upload_methods": ["uart", "wifi", "betaflight"]
+            },
+            "nano": {
+                "product_name": "Jumper AION Nano 2.4GHz RX",
+                "lua_name": "AION 2G4Nano RX",
+                "layout_file": "BETAFPV Nano 2400.json",
+                "upload_methods": ["uart", "wifi", "betaflight"]
+            }
         }
     },
     "matek": {
